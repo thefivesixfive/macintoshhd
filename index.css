@@ -1,0 +1,48 @@
+/* Variables */
+:root {
+    /* Colors */
+    --primary-color: #fff;
+    --secondary-color: #000;
+}
+/* Smoothing */
+* { scroll-behavior: smooth; }
+/* Centered */
+.centered {
+    /* Sizing */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CSS Reset */
+a,p,ul { margin: 0; }
+/* Fit to Entire Page */
+body {
+    /* Sizing */
+    height: 100%;
+    max-width: 100%;
+    /* Shaping */
+    margin: 0;
+    overflow-x: hidden;
+    /* Coloring */
+    background-color: var(--secondary-color);
+    /* Font Settings */
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+#titlepage, #linkspage {
+    z-index: 1;
+    /* Sizing */
+    height: 100vh;
+    width: 100vw;
+    /* Positioning */
+    position: relative;
+}
+
+/* Links */
+#linkspagelinks {
+    margin-top: 1vh;
+}
+#linkspagelinks a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
